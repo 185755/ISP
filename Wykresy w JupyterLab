@@ -1,3 +1,26 @@
+
+sc.install_pypi_package("ipywidgets")
+sc.install_pypi_package("jupyterlab_widgets")
+sc.install_pypi_package("openmeteo-requests")
+sc.install_pypi_package("requests-cache")
+sc.install_pypi_package("retry-requests")
+sc.install_pypi_package("numpy")
+sc.install_pypi_package("pandas")
+sc.install_pypi_package("matplotlib")
+sc.install_pypi_package("boto3")
+sc.install_pypi_package("IPython")
+sc.install_pypi_package("plotly")
+sc.install_pypi_package("nbformat")
+sc.install_pypi_package("pykernel")
+sc.list_packages()
+
+
+
+
+
+
+
+
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
