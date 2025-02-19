@@ -155,7 +155,7 @@ By following these steps, one can efficiently retrieve, process, and visualize w
 2. Log in to aws Academy
 3. Complete the course
 4. Start the Lab
-5. After that go to AWS console and log in
+5. After that go to AWS console and log in https://aws.amazon.com/console/
 6. Search for EMR cluster
 7. Create a Cluster (select the appropriate options) Most important:
   - Create S3 Bucket for storage
