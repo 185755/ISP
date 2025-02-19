@@ -43,15 +43,15 @@ This project focuses on analyzing real-time and historical weather data to detec
 ### 1. Data Ingestion from OpenMeteo API
 Retrieving and Utilizing Data from Open-Meteo API
 
-The Open-Meteo API provides a reliable and efficient way to access weather data for various geographic locations. This report outlines the step-by-step process of retrieving, processing, and visualizing weather data using the Open-Meteo API.
+- The Open-Meteo API provides a reliable and efficient way to access weather data for various geographic locations. This report outlines the step-by-step process of retrieving, processing, and visualizing weather data using the Open-Meteo API.
 
 1. Understanding the API
 
-Before retrieving data, it is crucial to familiarize oneself with the Open-Meteo API documentation. This documentation provides an overview of the available endpoints, parameters, and types of data accessible through the API. Understanding these aspects ensures the correct construction of API requests.
+- Before retrieving data, it is crucial to familiarize oneself with the Open-Meteo API documentation. This documentation provides an overview of the available endpoints, parameters, and types of data accessible through the API. Understanding these aspects ensures the correct construction of API requests.
 
 2. Building the API Request URL
 
-To retrieve weather data, one needs to construct an appropriate API request URL. The URL should include essential parameters such as latitude, longitude, and the specific weather variables required.
+- To retrieve weather data, one needs to construct an appropriate API request URL. The URL should include essential parameters such as latitude, longitude, and the specific weather variables required.
 
 3. Making the API Request
 
