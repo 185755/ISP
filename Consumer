@@ -1,4 +1,4 @@
-from confluent_kafka import Consumer, KafkaError
+from confluent_kafka import Consumer, KafkaError, KafkaException
 
 # Konfiguracja konsumenta z poprawnym adresem IP
 conf = {
@@ -21,9 +21,7 @@ while True:
         continue
     if msg.error():
         if msg.error().code() == KafkaError._PARTITION_EOF:
-            print(f'End of partition reached {msg.topic()} [{msg.partition()}]')
-        elif msg.error():
-            raise KafkaException(msg.error())
+            print(f'End of partition reached {msg.topic()} [{msg.partition()}]')         
     else:
         print(f'Received message: {msg.value().decode("utf-8")}')
 
