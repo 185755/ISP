@@ -116,7 +116,7 @@ This project focuses on analyzing real-time and historical weather data to detec
     # Run spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.4 test.py to initialize consumer
 
 
-
+---
 
 ## Project Components code on your local device
 ### 1. Data Ingestion and Processing from OpenMeteo API
@@ -149,7 +149,7 @@ Retrieving and Utilizing Data from Open-Meteo API
 - To continuously retrieve and update the weather data at regular intervals, automation is key. This can be achieved using a timer or scheduler, which ensures that the data is periodically fetched, processed, and displayed.
 
 By following these steps, one can efficiently retrieve, process, and visualize weather data from the Open-Meteo API in real-time. This process ensures that the data is continuously updated and accurately reflects the current weather conditions.
-
+---
 ## Project Components code on EMR AWS cluster
 1. Go to page https://awsacademy.instructure.com/courses/111020/modules/items/10426635
 2. Log in to aws Academy
